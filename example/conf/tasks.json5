@@ -1,0 +1,18 @@
+{
+  "taskList": [
+    {
+      "path": "/get",
+      "method": "get"
+    }, {
+      "path": "/form",
+      "method": "post",
+      "data": {
+        "aa": "aa"
+      }
+    }, {
+      "path": "/json",
+      "method": "json",
+      "data": "data/demo.json"
+    }
+  ]
+}

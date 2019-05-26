@@ -1,0 +1,42 @@
+{
+  "name": "warmup-node",
+  "description": "warmup tools for nodejs",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "homepage": "https://phantom9999.github.io/",
+  "author": "phantom9999",
+  "repository": "",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "warm",
+    "warmup",
+    "warm up",
+    "express"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^4.1.1",
+    "json5": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/debug": "^4.1.4",
+    "@types/express": "^4.16.1",
+    "@types/json5": "^0.0.30",
+    "jest": "^24.8.0",
+    "express": "^4.16.4",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "body-parser": "^1.19.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
