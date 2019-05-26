@@ -1,12 +1,13 @@
 {
-  "name": "warmup-node",
+  "name": "warmup-nodejs",
+  "private": false,
   "description": "warmup tools for nodejs",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "homepage": "https://phantom9999.github.io/",
   "author": "phantom9999",
-  "repository": "",
+  "repository": "https://github.com/phantom9999/warmup-nodejs",
   "engines": {
     "node": ">= 8.0.0"
   },
