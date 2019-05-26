@@ -50,7 +50,7 @@ export class Warmup {
                         }
                         const data = fs.readFileSync(datapath);
                         this.debug(`post ${task.path}`);
-                        return axios.post(task.path, data, {
+                        return client.post(task.path, data, {
                             headers: {
                                 "Content-Type": "application/json",
                                 keepAlive: false
