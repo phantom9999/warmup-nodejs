@@ -1,6 +1,6 @@
 import express from "express";
 import * as bodyParser from "body-parser";
-import {WarmupProcess} from "../src/warmupProcess";
+import {WarmupProcess} from "warmup-nodejs";
 
 
 const app = express();

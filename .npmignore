@@ -1,1 +1,4 @@
 .idea/
+yarn.lock
+src/
+example/
