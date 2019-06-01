@@ -35,5 +35,6 @@ warmup.run(app, "conf/tasks.json5").then(value => {
     });
 }).catch(err => {
     console.log(err);
+    process.exit(1);
 });
 
