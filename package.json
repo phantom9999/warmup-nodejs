@@ -4,13 +4,19 @@
   "description": "warmup tools for nodejs",
   "version": "1.0.5",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "license": "MIT",
   "homepage": "https://phantom9999.github.io/",
   "author": "phantom9999",
   "repository": "https://github.com/phantom9999/warmup-nodejs",
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 8.0.0",
+    "yarn": "^1.7.0"
   },
+  "files": [
+        "src",
+        "lib"
+    ],
   "keywords": [
     "nodejs",
     "warm",
@@ -19,7 +25,7 @@
     "express"
   ],
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "debug": "^4.1.1",
     "json5": "^2.1.0"
   },
@@ -28,12 +34,11 @@
     "@types/debug": "^4.1.4",
     "@types/express": "^4.16.1",
     "@types/json5": "^0.0.30",
-    "jest": "^24.8.0",
+    "body-parser": "^1.19.0",
     "express": "^4.16.4",
+    "jest": "^24.8.0",
     "ts-jest": "^24.0.2",
-    "ts-node": "^8.1.0",
-    "typescript": "^3.4.5",
-    "body-parser": "^1.19.0"
+    "typescript": "^3.7.2"
   },
   "jest": {
     "clearMocks": true,
@@ -41,6 +46,6 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublishOnly": "tsc"
+    "prepack": "tsc"
   }
 }
